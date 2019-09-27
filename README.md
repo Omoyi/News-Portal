@@ -23,21 +23,12 @@ This is a simple java application that allows Rangers to track wildlife sighting
 
 ## Installation tips/ Setup instruction
 
-* Clone this repository.
-* Install  Postgres SQL.
-* re-create my databases, columns, and tables by running the following commands in the terminal
 
-  * psql (make sure that you have installed Postgres SQL)
-  * CREATE DATABASE wildlife_tracker;
-  * CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker
-  * CREATE TABLE animals (id serial PRIMARY KEY, name varchar, health varchar, age varchar, endangered boolean)
-  * CREATE TABLE sightings (id serial PRIMARY KEY, location varchar, rangerName varchar)
- 
  
 ## A Little bit about how my project looks like
 
-![Homepage](src/main/resources/public/img1.png)
-![Add animals](src/main/resources/public/img2.png)
+![Homepage](src/main/resources/)
+![Add animals](src/main/resources)
   
 ## LICENSE 
 
