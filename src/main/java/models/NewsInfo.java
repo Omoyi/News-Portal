@@ -5,11 +5,14 @@ public class NewsInfo {
 
     private String header;
     private String content;
+    private int deptInfId;
     private int id;
+
 
     public NewsInfo(String header, String content){
         this.content = content;
         this.header = header;
+        this.deptInfId = deptInfId;
     }
 
     public String getHeader(){ return header; }

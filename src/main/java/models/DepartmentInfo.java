@@ -2,15 +2,17 @@ package models;
 
 public class DepartmentInfo {
 
-    public DepartmentInfo(String departmentName, String description, int numberOfEmployees){
-        this.departmentName = departmentName;
-        this.description = description;
-        this.numberOfEmployees = numberOfEmployees;
-    }
-
     private String departmentName;
     private String description;
     private int numberOfEmployees;
+    private int id;
+
+    public DepartmentInfo(String departmentName, String description, int numberOfEmployees, int id){
+        this.departmentName = departmentName;
+        this.description = description;
+        this.numberOfEmployees = numberOfEmployees;
+        this.id = id;
+    }
 
     public String getDepartmentName() { return departmentName; }
 
@@ -28,4 +30,7 @@ public class DepartmentInfo {
         this.numberOfEmployees = numberOfEmployees;
     }
 
+    public int getId() { return id; }
+
+    public void setId(int id) { this.id = id; }
 }
