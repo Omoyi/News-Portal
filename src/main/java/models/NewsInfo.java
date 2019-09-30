@@ -3,7 +3,6 @@ import java.util.Objects;
 
 public class NewsInfo {
 
-
     private String header;
     private String content;
     private int id;
