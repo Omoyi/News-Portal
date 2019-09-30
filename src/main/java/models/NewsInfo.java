@@ -11,9 +11,7 @@ public class NewsInfo {
         this.header = header;
     }
 
-    public String getHeader(){
-        return header;
-    }
+    public String getHeader(){ return header; }
 
     public String getContent(){
         return content;
@@ -27,9 +25,7 @@ public class NewsInfo {
         this.header = header;
     }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+    public void setContent(String content) {  this.content = content; }
 
     public void setId(int id) {
         this.id = id;
