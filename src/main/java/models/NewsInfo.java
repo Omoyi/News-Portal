@@ -6,6 +6,7 @@ public class NewsInfo {
     private String header;
     private String content;
     private int deptInfId;
+    private author
     private int id;
 
 
