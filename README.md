@@ -23,8 +23,10 @@
 
 ## Installation tips/ Setup instruction
 
-
- 
+* Install postgresSQL
+* type psql in your terminal 
+* CREATE DATABASE userTable(id SERIAL PRIMARY KEY, name VARCHAR, post VARCHAR, role VARCHAR);
+* CREATE DATABASE newsTable(id SERIAL PRIMARY KEY, name VARCHAR, post VARCHAR, role VARCHAR);
 ## A Little bit about how my project looks like
 
 ![Homepage](src/main/resources/)
